@@ -17,7 +17,8 @@ public class Main {
                 "20APR\n" +
                 "PRG\n" +
                 "NXY010 XY011 01MAY01MAY 0200000 168320 MANLHR1125 1215LHRMAN CC\n" +
-                "SI YES ITS WORK!!!!!!");
+                "SI YES ITS WORK!!!!!!\n"+
+                "GI BLA BLA BLA");
 
         SCRMsg SCRmsg = new SCRMsg(msg);
 
