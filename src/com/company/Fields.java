@@ -1,0 +1,15 @@
+package com.company;
+
+public enum Fields {
+
+    MEESAGETYPE,EMAIL, SEASON,
+    DATEOFMSG, AIRPORTCODE,
+    ARRIVALINFORM,DEPARTINFORM,
+    PERIOD, DAYSOFOPERATION,
+    NUMBOFSEATSANDAIRCRAFTTYPE,
+    INBOUNDFLIGHT, OUTBOUNDFLIGHT,
+    SERVICETYPE, SUPPLEMENTARYINFORM,
+    GENERALINFORM;
+
+    public final static  Fields[] fieldNames = Fields.values();
+}
